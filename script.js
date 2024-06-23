@@ -7,12 +7,10 @@ function menu() {
   document.getElementById("navbar").style.display = active ? "block" : "none";
 }
 
-function goToAdherer(e) {
-  e.preventDefault();
+function goToAdherer() {
   location.href = "adherer.html";
 }
 
-function goToHome(e) {
-  e.preventDefault();
+function goToHome() {
   location.href = "index.html";
 }
