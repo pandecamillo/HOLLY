@@ -30,6 +30,12 @@ main {
 
 .presentation {
   width: 100%;
+  height: 170px;
+}
+
+main h1 {
+  margin: 0;
+  margin-bottom: 0.3em;
 }
 
 .aderer {
