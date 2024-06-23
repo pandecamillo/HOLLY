@@ -1,0 +1,191 @@
+body{
+  margin: 0;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: auto;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(159, 158, 158);
+    padding: 8px;
+}
+
+.logo{
+    width:50px;
+    border-radius: 50%;
+}
+
+.menu{
+    width: 35px;
+    height: 35px;
+}
+
+main{
+    padding:15px;
+
+}
+
+.presentation{
+    width: 100%;
+}
+
+.aderer{
+    background-color: black;
+    color:white;
+    padding:6px;
+    font-size: 1.5rem;
+}
+
+nav{
+    background-color: rgb(115, 136, 200);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    width: 70%;
+    position: absolute;
+    top:0;
+    display: none;
+    max-width: 300px;
+    z-index: 1;
+}
+
+.menu-logo{
+    width: 145px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+nav div img{
+    width: 30px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:30px;
+    width: 80%;
+    border: black solid;
+    padding:20px 0px;
+    padding-left: 55px;
+}
+
+.container div{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+
+nav div a{
+    text-decoration: none;
+    color: white
+}
+
+nav button{
+    background-color: green;
+    color:white;
+    padding:5px;
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+.evenement{
+    margin: 1.5em 0.5em;
+    padding: 1em;
+    background-color:  rgb(211, 197, 197);
+     border-radius: 18px;
+     position: relative;
+}
+
+.evenement img{
+    margin: 1em;
+    width: 90%;
+    height: 200px;
+    border: black 2px solid;
+    border-radius: 14px;
+}
+
+.evenement h2{
+    margin:0;
+ 
+}
+
+.evenement small{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding:12px;
+}
+.evenement button{
+    background-color: black;
+    color:white;
+    padding:3px 55px;
+    font-size: 1.5rem;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1em;
+      padding-bottom: 1em;
+}
+
+form img{
+    width: 60%;
+    height: 100px;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(8, 8, 38, 0.573);
+        border:2px solid black;
+
+}
+
+
+form input{
+    border: 2px solid black;
+    font-size: 1.3rem;
+    border-radius: 0.5rem;
+    padding:0.5em;
+    box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(8, 8, 38, 0.573);
+}
+
+.accepter{
+        box-shadow: 0.1em 0.1em 0.1em 0.1em rgba(8, 8, 38, 0.573);
+        border:2px solid black;
+        padding:1em;
+        margin: 0px 1em;
+}
+
+.accepter p{
+    text-align: left;
+    margin: 0;
+}
+
+.accepter div{
+    text-align: right;
+}
+
+form button{
+    background-color: black;
+    color:white;
+    padding:7px 55px;
+    font-size: 1.5rem;
+    margin-top: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
